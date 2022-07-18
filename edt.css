@@ -70,15 +70,20 @@
         height:2em;
     }
 
+    #EDTA, #EDTB{
+        width: 60%;
+        height:80%;
+    }
+
     .edt{
         position: absolute;
         top:0%;
-        left:20%;
+        left:5%;
         text-align: center;
         border:bold; 
         table-layout: fixed; 
         display: block; 
-        margin: 5%;
+        margin: 10%;
     }
 
     td{
@@ -91,10 +96,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-
-    .query{
-        width: 50%;
     }
 
     #Liens{
