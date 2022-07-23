@@ -71,8 +71,8 @@
     }
 
     #EDTA, #EDTB{
-        width: 60%;
-        height:80%;
+        max-width: 60%;
+        max-height:80%;
     }
 
     .edt{
