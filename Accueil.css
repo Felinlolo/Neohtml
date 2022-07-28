@@ -89,22 +89,25 @@
         bottom: 1%;
     }
 
-    .body #pop_up{
-        background-color: #ffffff;
-        height:60%;
+    .body #info{
+        background-color: #f70000;
+        height:20%;
         width: 100%;
         position: absolute;
-        top:40%;
+        top:0%;
         border: solid;
         font-size: xx-large;
     }
 
-    .body #pop_up p{
-        width: 50%;
-        height:50%;
+    .body #info p{
+        font-size: smaller;
+        color:#ffffff;
+        text-align: center;
+        width: 100%;
+        height:10%;
         position: absolute;
-        top:25%;
-        left:25%;
+        top:0%;
+        left:0%;
     }
 
     .body #pop_up #close{
