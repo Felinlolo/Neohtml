@@ -1,4 +1,4 @@
-unction numEstPair(n) {
+function numEstPair(n) {
     return (n & 1) ? false : true;
   }
   var aujd = new Date();

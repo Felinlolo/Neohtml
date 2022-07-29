@@ -63,7 +63,7 @@
         font-size: 30px;
         color: #4d58ab;
         width: 100%;
-        text-align: center;
+        text-align: right;
     }
 
     .mini-icone{
@@ -71,19 +71,16 @@
     }
 
     #EDTA, #EDTB{
-        max-width: 60%;
-        max-height:80%;
+        height: 50%
     }
 
     .edt{
         position: absolute;
         top:0%;
-        left:20%;
+        left:5%;
         text-align: center;
-        border:bold; 
-        table-layout: fixed; 
         display: block; 
-        margin: 10%;
+        margin-top: 8%;
     }
 
     td{
@@ -95,7 +92,7 @@
         position: absolute;
         top:2%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
     }
 
