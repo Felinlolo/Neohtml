@@ -1,0 +1,38 @@
+
+
+/*matière globale couleur !*/
+.frS1,.fr,.fra{text-align: center;background-color: #f7a5d1;}
+.snt,.sntS1,.sntS2{text-align: center; background-color: #a5f7b0;}
+.frS1,.fr,.fra,.snt,.sntS1,.sntS2{border: 1em; border-radius: 20%; }
+.mini-icone { height: 2em; }
+.heure, .jour{font-weight: bold;}
+.frS1, .sntS1{font-weight:bold;}/* Pour mettre en valeur les classes importantes(oui je recycle vos blagues)*/
+.titre{text-align: center; }
+.heure, .jour, .repas, .devoir,.entre2,.rien{text-align: center; background-color: #f0f9ff;}
+
+@media(min-width: 768px) {
+        #Liens{position: absolute; top:4em; right:2%; background-color: #f0ebeb;
+            border: 1em; border-radius: 0% 20% 20% 0%; width:10em}
+        .EDTA, .EDTB{border:bold; table-layout: fixed; width: 85%; display: block; margin-top: 5%;}
+        #Liens .mini-icone{display: block; margin: 2% auto 2% auto; height: 2em;}
+        html, caption{background-color: #FFFFFF}
+        #EDT{border:bold; table-layout: fixed; display: block; margin-top: 5%; 
+            position: absolute; top:15em; right:5%;}
+        .edta,.edtb{display: none;}}
+
+@media(max-width: 767px) {
+    #Liens{position: absolute; top:1%; right:2%; background-color: #f0ebeb;}
+    .EDTA, .EDTB{display:none ;}
+    #Liens .mini-icone{display: block; margin: 2% auto 2% auto; height: 2em;}
+    .edta, .edtb{position: absolute; width: 60%; bottom: 6%}
+    .text{position:absolute; width:70%;margin-bottom: 6%;}
+
+    }
+
+
+
+/*
+#Liens{background-color: aqua;}
+#Duckduckgo, #Qwant{background-color: cornflowerblue;}
+background: linear-gradient(red, yellow);
+html, body{ background: linear-gradient(red,yellow);}*/
