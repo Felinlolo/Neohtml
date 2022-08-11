@@ -1,4 +1,3 @@
-@media(min-width: 1140px){ 
     .header{
         height: 80px;
         width: 100%;
@@ -108,4 +107,3 @@
         margin: 2% auto 2% auto; 
         height: 2em;
     }
-}
