@@ -6,8 +6,8 @@ function numEstPair(n) {
   var jours = Math.floor((aujd - premJan) / (24 * 60 * 60 * 1000));
   var semaine = Math.ceil(( aujd.getDay() + 1 + jours ) / 7);
   if (numEstPair(semaine)){
-      var cacher = document.getElementById("EDTA");
-  }else{
       var cacher = document.getElementById("EDTB");
+  }else{
+      var cacher = document.getElementById("EDTA");
   }
   cacher.style.display = "none";
