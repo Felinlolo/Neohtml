@@ -1,5 +1,73 @@
-    *{
-        margin:0;
-        padding: 0;
-        text-decoration: none;
-    }
+*{
+    margin: none;
+    padding: none;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+body{
+    max-width: 80em;
+    background-color: #fdf1eb;
+    margin: auto;
+}
+
+.header{
+    height : 6em;
+    width: 100%;
+    color: #7b4000;
+    background-color: #e17808;
+    
+}
+
+
+.infopersos{
+    margin-top:20px;
+    height:50em;
+    background-color: #ffe5d7;
+}
+
+.moi, .passions{
+    background-color: white;
+    height: 50%;
+    width: 40%;
+    box-shadow: 8px 4px 4px #222222; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moi{
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+.passions{
+    position: relative;
+    bottom: 25%;
+    left: 55%;
+}
+
+.moi p, .passions p{
+    max-width: 75%;
+}
+
+.mescompetences{
+    margin-top:20px;
+    height:50em;
+    background-color: #f4dcd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mescompetences ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3em;
+}
